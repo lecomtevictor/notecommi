@@ -79,7 +79,10 @@ const Note = ({ onSave, onDelete, history }) => {
         {showDeleteDialog && (
           <div className="Dialog">
             <p>Êtes-vous sûr de vouloir supprimer cette note ?</p>
-            <button className="Button" onClick={handleDeleteConfirm}>
+            <button
+              className="Button button--danger" type="button"
+              onClick={handleDeleteConfirm}
+            >
               Oui
             </button>
             <button className="Button" onClick={handleDeleteCancel}>

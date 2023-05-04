@@ -41,3 +41,6 @@
 .Button--danger {
   background-color: rgb(220, 38, 38);
 }
+.Button--danger:hover {
+  background-color: rgb(185, 28, 28);
+}

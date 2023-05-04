@@ -38,3 +38,6 @@
   border: none;
   color: inherit;
 }
+.Button--danger {
+  background-color: rgb(220, 38, 38);
+}

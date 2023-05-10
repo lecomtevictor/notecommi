@@ -80,7 +80,7 @@ const Note = ({ onSave, onDelete, history }) => {
           <div className="Dialog">
             <p>Êtes-vous sûr de vouloir supprimer cette note ?</p>
             <button
-              className="Button button--danger" type="button"
+              className="Button Button--danger" type="button"
               onClick={handleDeleteConfirm}
             >
               Oui

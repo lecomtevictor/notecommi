@@ -21,3 +21,29 @@
   text-decoration: inherit;
   font-weight: bold;
 }
+.New-note {
+  display: block;
+  padding: 16px;
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+}
+.SearchBar {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: rgb(29, 35, 39);
+  color: white;
+}
+
+.SearchBar-input {
+  width: 100%;
+  border: none;
+  padding: 16px;
+  background: transparent;
+  color: inherit;
+}
+.SearchBar-input:focus {
+  outline: none;
+  box-shadow: inset 0px 0px 0px 2px white;
+}
